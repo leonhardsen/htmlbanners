@@ -1,0 +1,9 @@
+body{margin:0;padding:0;overflow:hidden;}
+.hittable{cursor:pointer;background-color:rgba(255,0,0,0);-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.coverAll{margin:0;padding:0;position:absolute;top:0px;left:0px;width:100%;height:100%;}
+.unselectable{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;}
+.inpage-section{overflow:hidden;display:none;}
+.inpage-section #Creativity{position:absolute;margin:0px;left:0px;top:0px;right:auto;bottom:auto;overflow:hidden;display:none;width:100%;height:100%;}
+.inpage-section #Foreground{overflow:hidden;}
+.inpage-section #Background{width:100%;height:100%;background-color:rgb(0,0,0);-webkit-tap-highlight-color:rgba(0,0,0,0);}
+

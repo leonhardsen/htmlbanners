@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Use this metatag for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0"/>
+
+	<!-- Format file for style – DO NOT DELETE OR MODIFY !!! -->
+	<link rel="stylesheet" media="screen" href="format/anchoredtakeover.css" type="text/css" />
+
+	<!-- Custom file for style -->
+	<link rel="stylesheet" media="screen" href="custom/custom.css" type="text/css" />
+</head>
+<body>
+	<!-- Loading section -->
+	<div id="LoadingSection" style="position:absolute; width:100%; height:100%; background-color:#EEE; text-align:center; display:table;">
+		<!-- The creativity loading -->
+		<div id="Loading" style="display: table-cell; vertical-align: middle;">
+			<img src="custom/images/adm-loader.gif">
+		</div>
+	</div>
+
+	<!-- In-Page section -->
+	<div id="InpageSection" class="inpage-section" style="display:none">
+
+		<!-- Collapsed State -->
+		<div id="CollapsedState">
+
+			<!-- Collapsed State Creativity -->
+			<img src="custom/images/adm-collapsed.jpg" width="300" />
+			<div id="CollapsedState_HitArea" class='expander hittable coverAll'></div>
+			<img id="CollapsedState_CloseButton" class="closer adm-close-button" src="custom/images/adm-closeButton.png" width="30px" height="30px"/>
+		</div>
+
+		<!-- ExpandedState State -->
+		<div id="ExpandedState">
+			<div id="ExpandedState_Background"></div>
+			<div id="ExpandedState_Container">
+				<!-- ExpandedState Creativity -->
+				<div id="ExpandedState_HitArea" class="adButton hittable coverAll"></div>
+			</div>
+			<img id="ExpandedState_CloseButton" class="collapser adm-close-button" src="custom/images/adm-closeButton.png" width="50px" height="50px"/>
+		</div>
+	</div>
+
+	<!-- AD CONFIGURATION -->
+	<script type="text/javascript"> 
+		var adConfig = {};
+			adConfig.collapsedWidth = "300px";
+			adConfig.collapsedHeight = "50px";
+			adConfig.expandedWidth = "100%";
+			adConfig.expandedHeight = "100%";
+			adConfig.autoExpand = false;
+			adConfig.collapseTimeout = 10;
+			adConfig.autoExpandCap = 1;
+			adConfig.autoScale = true;
+			adConfig.isMraid = false;
+	</script>
+
+	<!-- AFA HTML Format required files – DO NOT DELETE OR MODIFY !!! -->
+	<script type="text/javascript"> 
+		var jqueryURL = "//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js";
+		try { if (document.location.protocol == "file:") jqueryURL = "http:" + jqueryURL;} catch(e){};
+		document.write('<script type="text/javascript" src="' + jqueryURL + '"></'+'script>');
+	</script>
+	<script src="format/anchoredtakeover.js" type="text/javascript"></script>
+
+	<!-- Custom files for ad behavior -->
+	<script src="custom/custom.js" type="text/javascript"></script>	
+
+	<!-- AFA HTML Creative Enabler required code - DO NOT DELETE OR MODIFY !!! -->
+	<script type="text/javascript">
+		var VERSION = "4-5-21389";
+		var args=new function(){var e=location.search.substring(1);var t=e.split("&");for(var n=0;n<t.length;n++){var r=t[n].indexOf("=");
+		if(r!=-1){var i=t[n].substring(0,r);var s=t[n].substring(r+1);this[i]=unescape(s)}}}
+		var loadJS=function(e){if(e){var t=document.createElement("script");t.src=e;document.body.appendChild(t)}}
+		var fDomain = "http://akfs.nspmotion.com/files";
+		try { if (document.location.protocol == "https:") fDomain = "https://s-akfs.nspmotion.com/files";} catch(e){};
+		if (typeof(args.fileDomain) !== "undefined" && args.fileDomain != null && args.fileDomain != "") 
+			fDomain = args.fileDomain;
+		window.ADMFileDomain = fDomain + "/htmlcreative/";
+		var HTMLCreativeURL = window.ADMFileDomain + VERSION + ".js";
+		loadJS(HTMLCreativeURL);
+	</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+#banner{
+	position: relative;
+	overflow: hidden;
+	width: 728px;
+	height: 90px;	
+}
+
+#banner #conteudo{
+	position: absolute;
+
+	width: 728px;
+	height: 90px;
+
+	top: 0;
+	left: 0;
+
+	background: #85458a;
+}
+
+#banner #conteudo #person{
+	position: absolute;
+
+	width: 329px;
+	height: 399px;
+
+	top: -40px;
+	left: 237px;
+
+	background: url("../img/person.png");
+	background-size: cover;
+
+	opacity: 0;
+}
+
+#banner #conteudo #processo-1-a{
+	position: absolute;
+
+	width: 268px;
+	height: 36px;
+
+	top: 20px;
+	left: 90px;
+
+	background: url("../img/processo-1-a.jpg");
+
+	opacity: 0;
+}
+
+#banner #conteudo #processo-1-b{
+	position: absolute;
+
+	width: 268px;
+	height: 31px;
+
+	top: 50px;
+	left: 90px;
+
+	background: url("../img/processo-1-b.jpg");
+
+	opacity: 0;
+}
+
+#banner #conteudo #logo-1{
+	position: absolute;
+
+	width: 52px;
+	height: 52px;
+
+	top: 15px;
+	left: 580px;
+
+	background: url("../img/logo.gif");
+
+	opacity: 0;
+}
+
+#banner #conteudo #udf-1{
+	position: absolute;
+
+	width: 46px;
+	height: 18px;
+
+	top: 35px;
+	left: 624px;
+
+	background: url("../img/udf.jpg");
+
+	opacity: 0;
+}

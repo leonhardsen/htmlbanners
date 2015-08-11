@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Banner Teste Parallax</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+<!-- <audio autoplay>
+	<source src="audio.mp3" type="audio/mpeg">
+</audio> -->
+<section class="container">
+		<ul id="scene" class="scene">
+		  <li class="layer">
+			<div class="background"></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="0.60">
+			<div class="sol"><img src="images/sol.png"></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="0.40" data-invert-y="false">
+		  <div class="nuvens"><img src="images/nuvens.png" /></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="0.60">
+			<div class="faisca1"><img src="images/faisca_1.png" /></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="1.20">
+			<div class="ryu"><img src="images/ryu.png"></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="1.00">
+		  <div class="akuma"><img src="images/akuma.png"></div>
+		  </li>
+		  
+		  <li class="layer" data-depth="2.30">
+			<div class="faisca2"><img src="images/faisca_2.png"></div>
+		  </li>
+		</ul>
+		<button data-toggle="modal" data-target="#akumaModal">AKUMA</button>
+		<button data-toggle="modal" data-target="#ryuModal">RYU</button>
+</section>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$('#scene').parallax();
+	});
+</script>
+</html>

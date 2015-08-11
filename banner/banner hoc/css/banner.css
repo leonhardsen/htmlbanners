@@ -1,0 +1,135 @@
+#banner_hoc_fechado{
+	opacity: 0;
+	display: block;
+	width: 970px;
+	height: 90px;
+	background: #1c1d1f;
+	position: absolute;
+	overflow: hidden;
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_gradient{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_charac{
+	opacity: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 5px;
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_logo{
+	opacity: 0;
+	position: absolute;
+	top: 30px;
+	left: 300px;
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_flag{
+	opacity: 0;
+	position: absolute;
+	top: 32px;
+	left: 432px;
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_button{
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	left: 700px;
+}
+
+.button_red{	
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+	border: 1px solid #810507;
+	background: #d30b03;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d30b03), to(#a50709));
+    background: -webkit-linear-gradient(top, #d30b03, #a50709);
+    background: -moz-linear-gradient(top, #d30b03, #a50709);
+    background: -o-linear-gradient(top, #d30b03, #a50709);
+    background: -ms-linear-gradient(top, #d30b03, #a50709);
+    background: linear-gradient(top, #d30b03, #a50709);
+    text-shadow: 1px 1px #500305;
+}
+
+.button_red:hover{
+	background: #e20a0e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e20a0e), to(#8a0507));
+    background: -webkit-linear-gradient(top, #e20a0e, #8a0507);
+    background: -moz-linear-gradient(top, #e20a0e, #8a0507);
+    background: -o-linear-gradient(top, #e20a0e, #8a0507);
+    background: -ms-linear-gradient(top, #e20a0e, #8a0507);
+    background: linear-gradient(top, #e20a0e, #8a0507);
+}
+
+#banner_hoc_fechado #banner_hoc_fechado_netflix{
+	opacity: 0;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+}
+
+/**** aberto ****/
+#banner_hoc_aberto{
+	opacity: 0;
+	display: block;
+	width: 970px;
+	height: 250px;
+	background: #1c1d1f;
+	position: absolute;
+	overflow: hidden;	
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_house{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_dvd{
+	opacity: 0;
+	position: absolute;
+	top: 60px;
+	left: 5px;
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_netflix{
+	opacity: 0;
+	position: absolute;
+	top: 10px;
+	left: 370px;
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_logo{
+	opacity: 0;
+	position: absolute;
+	top: 40px;
+	left: 332px;
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_charac{
+	opacity: 0;
+	position: absolute;
+	top: 12px;
+	left: 570px;
+}
+
+#banner_hoc_aberto #banner_hoc_aberto_button{
+	opacity: 0;
+	position: absolute;
+	top: 15px;
+	left: 900px;
+}

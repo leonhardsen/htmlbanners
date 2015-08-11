@@ -1,0 +1,114 @@
+* { margin:0; padding:0; }
+
+body { background:#ffffff; }
+
+.container { 
+	width:1280px; 
+	height:720px; 
+	overflow:hidden; 
+	position:relative; 
+	margin:50px auto; 
+	background:#000000; 
+}
+
+.background { 
+	background:url(../images/background.jpg); 
+	width:1280px; 
+	height:720px; 
+}
+
+/* OBJETOS */
+.layer div { position:absolute; }
+
+.ryu { 
+	left: 50px;
+	top: 272px;
+	animation: ryu 3s;
+	-webkit-animation: ryu 3s; /* Safari and Chrome */
+    animation-timing-function: cubic-bezier(0, 0, 0.04, 1.47);
+}
+
+.hadouken {
+	left: 520px;
+	top: 1340px;
+	animation: hadouken 3s;
+	-webkit-animation: hadouken 3s; /* Safari and Chrome */
+    animation-timing-function: ease-out;
+}
+
+.streetfighter {
+	left: 200px;
+    top: 105px;
+   	animation: streetfighter 3s;
+    -webkit-animation: streetfighter 3s; /* Safari and Chrome */
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.ko {
+	left: 171px;
+    top: 85px;
+   	animation: ko 3s;
+    -webkit-animation: ko 3s; /* Safari and Chrome */
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+    opacity: 0;
+}
+
+/* ANIMAÇÕES */
+@-webkit-keyframes ryu {
+    0%   { left:50px; top:272px;}
+    25%  { left:100px; top:272px;}
+    100% { left:50px; top:272px;}
+}
+
+@keyframes ryu {
+    0%   { left:50px; top:272px;}
+    25%  { left:100px; top:272px;}
+    100% { left:50px; top:272px;}
+}
+
+@-webkit-keyframes streetfighter { /* Safari and Chrome */
+    0% { opacity:0; }
+	50% { opacity:1; }
+	100% { opacity:0; }
+}
+
+@keyframes streetfighter {
+	0% { opacity:0; }
+	50% { opacity:1; }
+	100% { opacity:0; }
+}
+
+@-webkit-keyframes ko { /* Safari and Chrome */
+    0% { opacity:0; }
+	50% { opacity:1; }
+	100% { opacity:0; }
+}
+
+@keyframes ko {
+	0% { opacity:0; }
+	50% { opacity:1; }
+	100% { opacity:0; }
+}
+
+@-webkit-keyframes hadouken {
+    0%   { left:520px; top:352px;}
+    100% { left:1340px; top:352px;}
+    from { 
+        transform: scale(1); 
+    } to { 
+        transform: scale(3); 
+    } 
+}
+
+@keyframes hadouken {
+    0%   { left:520px; top:352px;}
+    100% { left:1340px; top:352px;}
+    from { 
+        transform: scale(1);  
+    } to { 
+        transform: scale(3); 
+    }
+}

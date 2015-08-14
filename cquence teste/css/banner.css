@@ -1,0 +1,77 @@
+#banner{	
+	width: 728px;
+	height: 90px;
+	background-color: #85458a;
+	overflow: hidden;
+}
+
+#person{
+	position: relative;
+
+	width: 329px;
+	height: 399px;
+
+	top: -40px;
+	left: 237px;
+
+	background: url("../img/person.png");
+	background-size: cover;
+
+	opacity: 0;
+}
+
+#logo{
+	position: absolute;
+
+	width: 52px;
+	height: 52px;
+
+	top: 15px;
+	left: 580px;
+
+	background: url("../img/logo.gif");	
+
+	opacity: 0;
+}
+
+#logo_udf{
+	position: absolute;
+
+	width: 46px;
+	height: 18px;
+
+	top: 35px;
+	left: 630px;
+
+	background: url("../img/udf.jpg");	
+
+	opacity: 0;
+}
+
+#text1{
+	position: absolute;
+
+	width: 268px;
+	height: 36px;
+
+	top: 20px;
+	left: 90px;
+
+	background: url("../img/processo-1-a.jpg");	
+
+	opacity: 0;
+}
+
+#text2{
+	position: absolute;
+
+	width: 268px;
+	height: 31px;
+
+	top: 50px;
+	left: 90px;
+
+	background: url("../img/processo-1-b.jpg");	
+
+	opacity: 0;
+}

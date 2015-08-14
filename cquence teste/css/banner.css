@@ -1,4 +1,5 @@
 #banner{	
+	position: absolute;
 	width: 728px;
 	height: 90px;
 	background-color: #85458a;
@@ -72,6 +73,82 @@
 	left: 90px;
 
 	background: url("../img/processo-1-b.jpg");	
+
+	opacity: 0;
+}
+
+#text3{
+	position: absolute;
+
+	width: 84px;
+	height: 62px;
+
+	top: 13px;
+	left: 14px;
+
+	background: url("../img/processo-2.jpg");	
+	background-size: cover;
+
+	opacity: 0;
+}
+
+#paragrafo1{
+	position: absolute;	
+
+	top: 20px;
+	left: 110px;
+
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+
+	opacity: 0;
+}
+
+#paragrafo2{
+	position: absolute;	
+
+	top: 40px;
+	left: 110px;
+
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+
+	opacity: 0;
+}
+
+#paragrafo3{
+	position: absolute;	
+
+	top: 60px;
+	left: 110px;
+
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+
+	opacity: 0;
+}
+
+#botao{
+	position: absolute;	
+
+	width: 161px;
+	height: 30px;
+
+	top: 26px;
+	left: 408px;
+
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+
+	background: #2377af;
+
+	border-radius: 20px;
 
 	opacity: 0;
 }
